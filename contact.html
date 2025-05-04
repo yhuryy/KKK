@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Federation of Payatas Youth Leaders</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #002855;
+      color: white;
+      overflow-y: auto;
+    }
+
+    /* Header Section */
+    .header {
+      background-color: #001d4b;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header .logo img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .header .logo h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .header .logo p {
+      margin: 0;
+      font-size: 1rem;
+      color: #ffcc00;
+    }
+
+    .header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    .header nav ul li {
+      display: inline;
+    }
+
+    .header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .header nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Section */
+    .main-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 30px;
+      background-image: url('background-logo.png'); /* Add watermark background */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      min-height: calc(100vh - 100px);
+    }
+
+    .contact-info {
+      flex: 1;
+    }
+
+    .contact-info h2 {
+      color: #f9c846;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      color: #c0c0c0;
+      font-size: 1rem;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .contact-info .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .contact-info .contact-item img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .contact-info .contact-item a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+
+    .contact-info .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    .logo-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .logo-container img {
+      max-width: 300px;
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h1>Federation Payatas Youth Leaders</h1>
+        <p>Payatas Quezon City</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="initiatives.html">Initiatives</a></li>
+        <li><a href="officials.html">Officials</a></li>
+        <li><a href="committees.html">Committees</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html" style="text-decoration: underline;">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main-content">
+    <div class="contact-info">
+      <h2>Contact us</h2>
+      <p>If you have any inquiries, feel free to reach out to us via email or call us. You can also visit our FB official page for more information.</p>
+      <div class="contact-item">
+        <img src="phone-icon.png" alt="Phone Icon">
+        <span>+63987654321</span>
+      </div>
+      <div class="contact-item">
+        <img src="facebook-icon.png" alt="Facebook Icon">
+        <a href="https://www.facebook.com/SKBarangayPayatas">Sangguniang Kabataan Barangay Payatas</a>
+      </div>
+    </div>
+    <div class="logo-container">
+      <img src="fpyl-logo.png" alt="FPYL Logo">
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Committees - Federation of Payatas Youth Leaders</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #002855;
+      color: white;
+      overflow-y: auto;
+    }
+
+    /* Header Section */
+    .header {
+      background-color: #001d4b;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header .logo img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .header .logo h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .header .logo p {
+      margin: 0;
+      font-size: 1rem;
+      color: #ffcc00;
+    }
+
+    .header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    .header nav ul li {
+      display: inline;
+    }
+
+    .header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .header nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Section */
+    .main-content {
+      padding: 20px 30px;
+      background-image: url('background-logo.png'); /* Add watermark background */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+    }
+
+    .main-content h2 {
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .committees-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+      text-align: left;
+    }
+
+    .committee {
+      background-color: #001d4b;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .committee h3 {
+      margin-top: 0;
+      font-size: 1.3rem;
+      color: #ffffff;
+    }
+
+    .committee p {
+      color: #c0c0c0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h1>Federation Payatas Youth Leaders</h1>
+        <p>Payatas Quezon City</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="initiatives.html">Initiatives</a></li>
+        <li><a href="officials.html">Officials</a></li>
+        <li><a href="committees.html" style="text-decoration: underline;">Committees</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main-content">
+    <h2>STANDING COMMITTEES</h2>
+    <div class="committees-grid">
+      <div class="committee">
+        <h3>Committee on Active Citizenship, Good Governance, and Sports Development</h3>
+        <p>This committee engages young people in civic activities to promote active citizenship and good governance, while also organizing sports programs to foster teamwork and leadership skills.</p>
+      </div>
+      <div class="committee">
+        <h3>Committee on Economic Empowerment, Livelihood, and Global Mobility</h3>
+        <p>This committee champions environmental sustainability, disaster resilience, and sustainable agriculture, supporting local farming and entrepreneurship.</p>
+      </div>
+      <div class="committee">
+        <h3>Committee on Education, Arts and Culture, and Social Inclusion and Equity</h3>
+        <p>This committee promotes education, arts, and culture while advocating for inclusion and equity, ensuring all, especially the marginalized, can thrive and contribute.</p>
+      </div>
+      <div class="committee">
+        <h3>Committee on Health, and Peace Building and Security</h3>
+        <p>This committee serves as a backbone for public health and wellness initiatives, while also enhancing peace-building and security to ensure community safety and harmony.</p>
+      </div>
+      <div class="committee">
+        <h3>Committee on Environment, Disaster Resilience, and Agriculture</h3>
+        <p>This committee is concerned with economic empowerment through the provision of skills training and entrepreneurship development.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

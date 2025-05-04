@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Officials - Federation of Payatas Youth Leaders</title>
+  <style>
+    /* General Reset */
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #002855;
+      color: white;
+      overflow: auto; /* Prevent default scrolling */
+    }
+
+    /* Header Section */
+    .header {
+      background-color: #001d4b;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .header .logo img {
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .header .logo h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .header .logo p {
+      margin: 0;
+      font-size: 1rem;
+      color: #ffcc00;
+    }
+
+    .header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    .header nav ul li {
+      display: inline;
+    }
+
+    .header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+
+    .header nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main Section */
+    .main-content {
+      padding: 20px 30px;
+      background-image: url('background-logo.png'); /* Add watermark background */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain; 
+      height: calc(100vh - 100px); /* Adjust height to fit within the viewport */
+    }
+
+    .main-content h2 {
+      text-align: center;
+      color: #f9c846;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+
+    .officials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      justify-items: center;
+      text-align: left;
+    }
+
+    .official-left, .official-center, .official-right {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .official-card {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .official-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #f9c846;
+    }
+
+    .official-card .details {
+      color: white;
+    }
+
+    .official-card .details h3 {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .official-card .details p {
+      margin: 5px 0;
+      font-size: 14px;
+      color: #c0c0c0;
+    }
+
+    /* Officers Section */
+    .officers-section {
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .officers-section h3 {
+      color: #f9c846;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .officers-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px 100px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .officers-list div {
+      color: #c0c0c0;
+    }
+
+    .advisers-section {
+      margin-top: 100px;
+      text-align: center;
+    }
+
+    .advisers-section h3 {
+      color: #f9c846;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .advisers-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px 30px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .advisers-list div {
+      color: #c0c0c0;
+      
+    }
+
+    /* Extra Space */
+    .bottom-space {
+      height: 70px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+      <div>
+        <h1>Federation Payatas Youth Leaders</h1>
+        <p>Payatas Quezon City</p>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="initiatives.html">Initiatives</a></li>
+        <li><a href="officials.html" style="text-decoration: underline;">Officials</a></li>
+        <li><a href="committees.html">Committees</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main class="main-content">
+    <h2>FEDERATION PAYATAS YOUTH LEADERS</h2>
+    <div class="officials-grid">
+      <!-- Left Column -->
+      <div class="official-left">
+        <div class="official-card">
+          <img src="vienmar.png" alt="Hon. Vienmar Mandaraog">
+          <div class="details">
+            <h3>HON. VIENMAR MANDARAOG</h3>
+            <p>SK CHAIRMAN</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="em.png" alt="Ms. Em Visaya">
+          <div class="details">
+            <h3>MS. EM VISAYA</h3>
+            <p>SK TREASURER</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="precious.png" alt="Hon. Precious Daco">
+          <div class="details">
+            <h3>HON. PRECIOUS DACO</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="eco.png" alt="Hon. Eco Harvey">
+          <div class="details">
+            <h3>HON. ECO HARVEY</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Center Column -->
+      <div class="official-center">
+        <div class="official-card">
+          <img src="adrian.png" alt="Hon. Adrian De Guzman">
+          <div class="details">
+            <h3>HON. ADRIAN DE GUZMAN</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="dianne.png" alt="Hon. Dianne Ponce">
+          <div class="details">
+            <h3>HON. DIANNE PONCE</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="vann.png" alt="Hon. Vann Bautista">
+          <div class="details">
+            <h3>HON. VANN BAUTISTA</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="andrea.png" alt="Hon. Andrea Lope">
+          <div class="details">
+            <h3>HON. ANDREA LOPE</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="official-right">
+        <div class="official-card">
+          <img src="jeric.png" alt="Mr. Jeric Acuña">
+          <div class="details">
+            <h3>MR. JERIC ACUÑA</h3>
+            <p>SK SECRETARY</p>
+          </div>
+        </div>
+        <div class="official-card">
+          <img src="anabela.png" alt="Hon. Anabela Solasco">
+          <div class="details">
+            <h3>HON. ANABELA SOLASCO</h3>
+            <p>SK KAGAWAD</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Officers Section -->
+    <div class="officers-section">
+        <h3>OFFICERS</h3>
+        <div class="officers-list">
+          <div>Federation President</div><div>Jovina L. Taquilid</div><div>Federation Area A Representative</div><div>Rash Fae Danguilan</div>
+          <div>Federation Vice President</div><div>Mike Yvan Lacuna</div><div>Federation Area B Representative</div><div>Andrea Gail Verdadero</div>
+          <div>Federation Secretary</div><div>Jaime Salazar</div><div>Federation Lupang Pangako Representative</div><div>Kristine Kate Diez</div>
+          <div>Federation Treasurer</div><div>Nadine Aiko Ecal</div>
+          <div>Federation Auditor</div><div>Patrick Ser Jay Nonato</div>
+          <div>Federation Public Information</div><div>Jose Iv Sistua</div>
+        </div>
+      </div>
+  
+      <!-- Advisers Section -->
+      <div class="advisers-section">
+        <h3>ADVISERS</h3>
+        <div class="advisers-list">
+          <div>Hon. Vienmar Magdaraog</div><div>SK Chairman</div>
+          <div>Mr. Kevin Luci, DRDM</div><div>SK Adviser</div>
+          <div>Hon. Vann Bautista</div><div>SK Kagawad</div>
+      </div>
+          <!-- Bottom Space -->
+    <div class="bottom-space"></div>
+  </main>
+</body>
+</html>
